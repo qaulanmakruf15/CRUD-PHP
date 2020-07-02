@@ -34,15 +34,14 @@ CREATE TABLE `produk` (
   `deskripsi` text,
   `harga_beli` int(11) DEFAULT NULL,
   `harga_jual` int(11) DEFAULT NULL,
-  `gambar_produk` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data untuk tabel `produk`
 --
 
-INSERT INTO `produk` (`id`, `nama_produk`, `deskripsi`, `harga_beli`, `harga_jual`, `gambar_produk`) VALUES
-(1, 'Indomie', 'indomie ini enak sekali sob', 4000, 5000, '489-contoh.jpg'),
+INSERT INTO `produk` (`id`, `nama_produk`, `keterangan`, `jumlah`, `harga`) VALUES
+(1, 'Indomie', 'indomie ini enak sekali', 4000, 5000),
 (4, '342', '', 55, 234, '452-761-277-contoh.jpg'),
 (5, '123', '33', 55, 123, '623-452-761-277-contoh.jpg'),
 (6, '23', '44', 5, 234, '857-277-contoh.jpg');
