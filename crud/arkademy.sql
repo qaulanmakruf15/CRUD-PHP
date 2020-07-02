@@ -31,9 +31,9 @@ SET time_zone = "+00:00";
 CREATE TABLE `produk` (
   `id` int(11) NOT NULL,
   `nama_produk` varchar(255) DEFAULT NULL,
-  `deskripsi` text,
-  `harga_beli` int(11) DEFAULT NULL,
-  `harga_jual` int(11) DEFAULT NULL,
+  `keterangan` text,
+  `jumlah` int(11) DEFAULT NULL,
+  `harga` int(11) DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
